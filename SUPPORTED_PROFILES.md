@@ -539,6 +539,17 @@ All profiles (should) correspond to the official [EEP](http://www.enocean-allian
 </blockquote></details>
 
 <details open><summary>10 <i>(Room Operating Panel)</i></summary><blockquote>
+<details><summary>A5-10-01 <i>(Temperature Sensor, Set Point, Fan Speed and Occupancy Control)</i></summary><blockquote>
+
+|shortcut|description                                       |type    |values                                                                |
+|--------|--------------------------------------------------|--------|----                                                                  |
+|FAN     |Turn-switch for fan speed (raw value)             |value   |255.0-0.0 ↔ 0.0-255.0                                                 |
+|SP      |Set Point (linear)                                |value   |0.0-255.0 ↔ 0.0-255.0                                                 |
+|TMP     |Temperature (linear)                              |value   |255.0-0.0 ↔ 0.0-40.0 °C                                               |
+|OCC     |Occupancy Button                                  |enum    |0 - Button pressed                                                    |
+|        |                                                  |        |1 - Button released                                                   |
+
+</blockquote></details>
 <details><summary>A5-10-03 <i>(Temperature Sensor and Set Point)</i></summary><blockquote>
 
 |shortcut|description                                       |type    |values                                                                |
